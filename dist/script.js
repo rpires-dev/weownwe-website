@@ -135,13 +135,14 @@ window.addEventListener("load", event => {
 
 
     const iconMenu = document.querySelector('.icon-menu'),
-        menuItem1 = document.querySelector('menuItem1'),
-        menuItem2 = document.querySelector('.menuItem2'),
+        menuItem1 = document.querySelector('.item1'),
+        menuItem2 = document.querySelector('.item2'),
         menuOverlay = document.querySelector('.main-nav'),
         body = document.querySelector('body');
 
     iconMenu.addEventListener("click", openMenu);
     menuItem1.addEventListener("click", openMenu);
+    menuItem2.addEventListener("click", openMenu);
 
 
     // Sticky menu 
